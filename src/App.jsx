@@ -311,7 +311,6 @@ export default function App() {
                 <p>
                   A ZUTEC acumula uma trajetória sólida em projetos EPC de energia e infraestrutura, com atuação em parques eólicos, subestações e instalações industriais de alta complexidade.
                 </p>
-                <div className="about-location">📍 São Paulo · SP — Excelência Operacional</div>
               </div>
               <div className="about-stats">
                 <div>
@@ -345,9 +344,6 @@ export default function App() {
                   <span className="service-num">{s.num}</span>
                   <h3>{s.title}</h3>
                   <p>{s.desc}</p>
-                  <a href="#contato" onClick={(e) => scrollToSection(e, '#contato')}>
-                    Solicitar proposta →
-                  </a>
                 </div>
               ))}
             </div>
